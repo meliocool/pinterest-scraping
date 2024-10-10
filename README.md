@@ -6,6 +6,7 @@ NOT in a virtual environment, therefore you might need to download these librari
 =
 
 Make sure you have FIREFOX installed as this is using Firefox and not Chrome based browser (Chromium)
+=
 
 Thanks!
 =
