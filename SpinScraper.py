@@ -15,12 +15,13 @@ def scroll_down_page(driver, wait_time=3):
     time.sleep(wait_time)
 
 memberSearch = input("Enter the member name: ")
+path = input("Input the path to save the images: ")
 folder_name = input("Enter the folder name: ") 
 encoded_search = urllib.parse.quote(memberSearch)
 search_url = f"https://www.pinterest.com/search/pins/?q={encoded_search}"
 driver.get(search_url)
 
-output_dir = f'C:/Users/Asus VivobookPro/Documents/CODING STUFF/AI/SimpleProjects/is_it_an_S/training_images/{folder_name}'
+output_dir = f'{path}/{folder_name}'
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 
