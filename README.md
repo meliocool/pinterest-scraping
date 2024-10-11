@@ -1,12 +1,27 @@
-﻿# pinterest-scraping
-Python based Pinterest Scraping tool using Selenium and Beautiful Soup
-=
+Pinterest Scraper
+=  
+## Overview
 
-NOT in a virtual environment, therefore you might need to download these libraries: selenium, bs4 / Beautiful, Soup, time (optional), os, request, surllib.parse
-=
+This Python script allows you to scrape images from Pinterest based on a specified search query. It uses Selenium for web automation and BeautifulSoup for parsing HTML. The script scrolls through the Pinterest search results and downloads images to a designated folder.
 
-Make sure you have FIREFOX installed as this is using Firefox and not Chrome based browser (Chromium)
-=
+## Note  
 
-Thanks!
-=
+**This Python script is for personal/educational usage only, and commercial use is strictly prohibited, Thanks!**
+
+## Libraries Used
+
+- **Selenium**: Automates web browser interaction.
+- **BeautifulSoup**: Parses HTML and XML documents.
+- **Requests**: Makes HTTP requests to download images.
+- **OS**: Provides a way of using operating system-dependent functionality.
+- **Time**: Allows for time-related tasks like delays.
+- **Urllib**: Parses URLs for safe handling.
+
+## Installation
+
+Ensure you have Python installed on your system. Then, install the required libraries using pip
+
+## Feel free to modify or improve this to suit your needs!
+## Thank you for reading!
+
+
